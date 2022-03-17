@@ -1,0 +1,10 @@
+---------------------------------------------------------
+begin(int add, int val);  //change the sensitivity
+read();
+Xaxis();  //return DEG num from 180 ~ -180
+Yaxis();
+Zaxis();
+Xraw();  //return the raw accel num
+Yraw();
+Zraw();
+---------------------------------------------------------
