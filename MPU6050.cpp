@@ -8,9 +8,9 @@ int min = 265, max = 402;
 double x, y, z;
 
 void MPU6050::begin(int add, int val){
-	addr = add;
-	Wire.begin();
-	Wire.beginTransmission(addr);
+    addr = add;
+    Wire.begin();
+    Wire.beginTransmission(addr);
     Wire.write(0x6B);
     Wire.write(0);
     Wire.endTransmission(true);
